@@ -1,0 +1,20 @@
+﻿{
+  "Name": "Virtual Machine Operator - Support Request",
+  "Id": "fbacc1de-2e17-4559-86e3-87b2d15e4e49",
+  "IsCustom": true,
+  "Description": "Operator can start and restart vm, and send request support.",
+  "Actions": [
+  
+	"Microsoft.Compute/virtualMachines/*/read",
+    "Microsoft.Compute/virtualMachines/start/action",
+    "Microsoft.Compute/virtualMachines/deallocate/action",
+    "Microsoft.Insights/alertRules/*",
+    "Microsoft.Support/*"
+  ],
+  "NotActions": [
+
+  ],
+  "AssignableScopes": [
+    "/subscriptions/d2fb0091-b6e9-4d60-83a0-625b043e8893"
+  ]
+}
