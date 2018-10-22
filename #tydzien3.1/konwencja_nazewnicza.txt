@@ -1,0 +1,28 @@
+#tydzien3.1
+
+Konwencja nazewnicza zasobów azure
+
+skrócona_nazwa_klienta(3 znaki)-projekt-zasób-numer zasobu
+
+symbole zasobów
+*vm - maszyna wirtualna
+*vnet - sieć 
+*app - aplikacja
+*sta - storage account
+*rg - resource group
+*pubip - publiczny adres ip
+*disk - dysk
+
+projekt :
+*dev -developerskie
+*tst - testowe
+*prod - produkcyjne
+np:
+prb-tst-rg-01
+
+w przypadku gdy dany zasób nie pozwala użyć - nazewnictwo proponuję takie
+skrócona_nazwa_klienta(3 znaki),projekt,zasób,numer zasobu
+
+np:
+prbtststa01 - storage account
+prb-tst-vm-01 - maszyna wirtualna
