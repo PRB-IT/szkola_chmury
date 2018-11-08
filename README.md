@@ -11,3 +11,8 @@ $RGName="prb-tst-rg-01"
 $template="C:\Github\vm_template.json"
 
 New-AzureRmResourceGroupDeployment -Name $deploy -ResourceGroupName $RGName -TemplateFile $template
+
+
+w zadaniu 3.4 żeby utworzyć AVK użyłem polecenia :
+New-AzureRmKeyVault -VaultName 'prb-tst-keyv-01' -ResourceGroupName 'prb-tst-rg-01' -Location 'West Europe'
+
