@@ -1,0 +1,18 @@
+
+#tydzien6.1
+1.Api Management 
+- Wersjonowanie wersji naszego api oraz dostepne polityki co daje mozliwosc trzymania kodu w jakis repozytorium, ulatwienie dla developerów
+- mozliwosc wystawienia aplikacji na swiat a kontrolowany przez nas sposób
+- mozliwosc zarzaadzania api z jednego miejsca
+2. Azure Web Apps – front end naszej aplikacji
+- mozliwosc uzycia rediscache lub CDN
+- szybkie skalowanie w zaleznosci od potrzeby
+- wbudowana integracja z narzedziami CD/CI
+3. Azure Functions – system rezerwacji
+- przede wszystkim system ten musi byc stale dostepny i moze byc on najbardziej obciazony , dzieki azure functions bedziemy go mogli skalowac w zaleznosci od potrzeb
+- platnosc tylko za wywlane zapytania
+- mozliwosc uzycia Trafficmanagera do podzielenia ruchu
+
+#tydzien6.2
+Jesli chcemy miec mozliwosc kontrolowania ruchu sieciowego na wejsciu i wyjsciu jak wspomniales musimy niestety uzywac maszyny wirtualnej czyli serverless tutaj odpada.
+Drugie to nie bede orginalny jak napisze ze aplikacje stare które nie sa obslugiwane przez azure. Takze aplikacje które uzywaja poswiadczen z AD.
